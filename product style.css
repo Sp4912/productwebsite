@@ -1,0 +1,141 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('gaming\ bg2.jpg');
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+
+header {
+  top: 0;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: sticky;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+header .logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+header .nav-links li {
+  margin-left: 20px;
+}
+
+header .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header .nav-links a:hover {
+  text-decoration: underline;
+}
+
+
+.products {
+  padding: 50px 20px;
+  text-align: center;
+  color: #fbf9f9;
+}
+
+.products h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: rgba(255, 255, 255, 0.533);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  background-color: rgb(89, 253, 253);
+}
+
+.product-card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #070707;
+}
+
+.product-card .description {
+  font-size: 1em;
+  color: #070707;
+  margin-bottom: 15px;
+}
+
+.product-card .price {
+  font-size: 1.2em;
+  color: #080808;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.product-card .buy-button {
+  background-color: #0d0d0d;
+  color: rgb(249, 249, 249);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.product-card .buy-button:hover {
+  background-color: #fdfbfb;
+  color: #000;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
